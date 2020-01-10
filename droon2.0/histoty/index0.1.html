@@ -1,0 +1,469 @@
+<! Doctype html>
+<html>
+<style>
+
+div.p{
+	background-color: rgb(0, 139, 127);
+	width: 65px;
+	margin: 1px;
+	float: left;
+	text-align: center;
+}
+
+div.i{
+	background-color: rgb(77, 228, 213);
+	width: 65px;
+	margin: 1px;
+	float: left;
+	text-align: center;
+}
+
+div.d{
+	background-color: rgb(157, 223, 217);
+	width: 65px;
+	margin: 1px;
+	float: left;
+	text-align: center;
+}
+
+div.space{
+	width: 20px;
+	margin: 1px;
+	float: left;
+}
+
+
+div.wide{
+	background-color: rgb(64, 68, 75);
+	width: 140px;
+	margin: 1px;
+	text-align: center;
+}
+
+</style>
+<body>
+<h1>DROON Callibrator</h1>
+
+
+<!-- ---------------------------------XP----------------------------------------- -->
+<div class="p">
+
+	<div id="btn1">
+
+			<div class="x.container">
+					<h1>XP</h1>
+					<h1><span id="number1">0</span></h1>
+			</div>
+
+		<Button onclick="window.location.href='/xpu'; addone1()">
+		<!-- <Button onclick="window.location.href='/xpu'"> -->
+
+		Upp
+		</Button>
+	</div>
+
+	<div id="btn2">
+
+		<Button onclick="window.location.href='/xpn'; removeone1()">
+		<!-- <Button onclick="window.location.href='/xpn'"> -->
+	
+		Down
+		</Button>
+	</div>
+	
+</div>
+<!-- ---------------------------------XI----------------------------------------- -->
+<div class="i">
+
+		<div id="btn3">
+	
+				<div class="y.container">
+						<h1>XI</h1>
+						<h1><span id="number2">0</span></h1>
+				</div>
+	
+			<Button onclick="window.location.href='/xiu'; addone2()">
+			Upp
+			</Button>
+		</div>
+	
+		<div id="btn4">
+	
+			<Button onclick="window.location.href='/xin'; removeone2()">
+			Down
+			</Button>
+		</div>
+		
+</div>
+<!-- ---------------------------------XD----------------------------------------- -->
+<div class="d">
+
+		<div id="btn5">
+	
+				<div class="z.container">
+						<h1>XD</h1>
+						<h1><span id="number3">0</span></h1>
+				</div>
+	
+			<Button onclick="window.location.href='/xdu'; addone3()">
+			Upp
+			</Button>
+		</div>
+	
+		<div id="btn6">
+	
+			<Button onclick="window.location.href='/xdn'; removeone3()">
+			Down
+			</Button>
+		</div>
+	
+		
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+</div>
+<div class="space">
+	
+</div>
+
+
+
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<!-- ---------------------------------YP----------------------------------------- -->
+<div class="p">
+
+		<div id="btn21">
+	
+				<div class="x.container">
+						<h1>YP</h1>
+						<h1><span id="number4">0</span></h1>
+				</div>
+	
+			<Button onclick="window.location.href='/ypu'; addone4()">
+			Upp
+			</Button>
+		</div>
+	
+		<div id="btn22">
+	
+			<Button onclick="window.location.href='/ypn'; removeone4()">
+			Down
+			</Button>
+		</div>
+		
+	</div>
+	<!-- ---------------------------------YI----------------------------------------- -->
+	<div class="i">
+	
+			<div id="btn23">
+		
+					<div class="y.container">
+							<h1>YI</h1>
+							<h1><span id="number5">0</span></h1>
+					</div>
+		
+				<Button onclick="window.location.href='/yiu'; addone5()">
+				Upp
+				</Button>
+			</div>
+		
+			<div id="btn24">
+		
+				<Button onclick="window.location.href='/yin'; removeone5()">
+				Down
+				</Button>
+			</div>
+			
+	</div>
+	<!-- ---------------------------------YD----------------------------------------- -->
+	<div class="d">
+	
+			<div id="btn25">
+		
+					<div class="z.container">
+							<h1>YD</h1>
+							<h1><span id="number6">0</span></h1>
+					</div>
+		
+				<Button onclick="window.location.href='/ydu'; addone6()">
+				Upp
+				</Button>
+			</div>
+		
+			<div id="btn26">
+		
+				<Button onclick="window.location.href='/ydn'; removeone6()">
+				Down
+				</Button>
+			</div>
+			
+	</div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+</div>
+<div class="space">
+	
+</div>
+
+
+
+
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<!-- ---------------------------------ZP----------------------------------------- -->
+<div class="p">
+
+		<div id="btn31">
+	
+				<div class="x.container">
+						<h1>ZP</h1>
+						<h1><span id="number7">0</span></h1>
+				</div>
+	
+			<Button onclick="window.location.href='/zpu'; addone7()">
+			Upp
+			</Button>
+		</div>
+	
+		<div id="btn32">
+	
+			<Button onclick="window.location.href='/zpn'; removeone7()">
+			Down
+			</Button>
+		</div>
+		
+	</div>
+	<!-- ---------------------------------ZI----------------------------------------- -->
+	<div class="i">
+	
+			<div id="btn33">
+		
+					<div class="y.container">
+							<h1>ZI</h1>
+							<h1><span id="number8">0</span></h1>
+					</div>
+		
+				<Button onclick="window.location.href='/ziu'; addone8()">
+				Upp
+				</Button>
+			</div>
+		
+			<div id="btn34">
+		
+				<Button onclick="window.location.href='/zin'; removeone8()">
+				Down
+				</Button>
+			</div>
+			
+	</div>
+	<!-- ---------------------------------ZD----------------------------------------- -->
+	<div class="d">
+	
+			<div id="btn35">
+		
+					<div class="z.container">
+							<h1>ZD</h1>
+							<h1><span id="number9">0</span></h1>
+					</div>
+		
+				<Button onclick="window.location.href='/zdu'; addone9()">
+				Upp
+				</Button>
+			</div>
+		
+			<div id="btn36">
+		
+				<Button onclick="window.location.href='/zdn'; removeone9()">
+				Down
+				</Button>
+			</div>
+			
+	</div>
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------SPEEEEEEEEEED------------------------------------ -->
+<div>
+
+<div class="wide">
+
+		<div id="btn7">
+	
+				<div class="z.container">
+						<h1>SPEED</h1>
+						<h1><span id="number10">0</span></h1>
+				</div>
+	
+			<Button onclick="window.location.href='/speed.upp'; addone10()">
+			Upp
+			</Button>
+		</div>
+	
+		<div id="btn8">
+	
+			<Button onclick="window.location.href='/speed.ner'; removeone10()">
+			Down
+			</Button>
+		</div>
+		
+	</div>
+</div>
+<!-- -------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script type="text/javascript" src="dron2.0.js"> -->
+	<script>
+
+var number1 = 0;
+var number2 = 0;
+var number3 = 0;
+var number4 = 0;
+var number5 = 0;
+var number6 = 0;
+var number7 = 0;
+var number8 = 0;
+var number9 = 0;
+var number10 = 0;
+// ------------------------------------------------------
+function addone1() {
+	number1 += 1;
+	document.getElementById("number1").innerHTML = number1;
+};
+function removeone1() {
+	number1 -= 1;
+	document.getElementById("number1").innerHTML = number1;
+};
+// ------------------------------------------------------
+function addone2() {
+	number2 += 1;
+	document.getElementById("number2").innerHTML = number2;
+};
+function removeone2() {
+	number2 -= 1;
+	document.getElementById("number2").innerHTML = number2;
+};
+// ------------------------------------------------------
+function addone3() {
+	number3 += 1;
+	document.getElementById("number3").innerHTML = number3;
+};
+function removeone3() {
+	number3 -= 1;
+	document.getElementById("number3").innerHTML = number3;
+};
+// ------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
+// ------------------------------------------------------
+function addone4() {
+	number4 += 1;
+	document.getElementById("number4").innerHTML = number4;
+};
+function removeone4() {
+	number4 -= 1;
+	document.getElementById("number4").innerHTML = number4;
+};
+// ------------------------------------------------------
+function addone5() {
+	number5 += 1;
+	document.getElementById("number5").innerHTML = number5;
+};
+function removeone5() {
+	number5 -= 1;
+	document.getElementById("number5").innerHTML = number5;
+};
+// ------------------------------------------------------
+function addone6() {
+	number6 += 1;
+	document.getElementById("number6").innerHTML = number6;
+};
+function removeone6() {
+	number6 -= 1;
+	document.getElementById("number6").innerHTML = number6;
+};
+// ------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+// ------------------------------------------------------
+function addone7() {
+	number7 += 1;
+	document.getElementById("number7").innerHTML = number7;
+};
+function removeone7() {
+	number7 -= 1;
+	document.getElementById("number7").innerHTML = number7;
+};
+// ------------------------------------------------------
+function addone8() {
+	number8 += 1;
+	document.getElementById("number8").innerHTML = number8;
+};
+function removeone8() {
+	number8 -= 1;
+	document.getElementById("number8").innerHTML = number8;
+};
+// ------------------------------------------------------
+function addone9() {
+	number9 += 1;
+	document.getElementById("number9").innerHTML = number9;
+};
+function removeone9() {
+	number9 -= 1;
+	document.getElementById("number9").innerHTML = number9;
+};
+// ------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////
+// ------------------------------------------------------
+function addone10() {
+	number10 += 1;
+	document.getElementById("number10").innerHTML = number10;
+};
+function removeone10() {
+	number10 -= 1;
+	document.getElementById("number10").innerHTML = number10;
+};
+// ------------------------------------------------------
+
+
+</script>
+</body>
+</html>
